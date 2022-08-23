@@ -12,5 +12,5 @@ The left sidebar divides most of the content into manageable parts, resulting in
 
 ## Active Products
 
-- Registry Direct
 - Health Data Connector
+- Registry Direct
