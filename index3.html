@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <link rel="icon" type="image/x-icon" href="/_media/favicon.ico">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="description" content="Description">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" media="(prefers-color-scheme: dark)"  href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
+  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+  <script>var gup = function gup(sParam) {var sPageURL = window.location.search.substring(1),sURLVariables = sPageURL.split("&"),sParameterName,i; for (i = 0; i < sURLVariables.length; i++) {sParameterName = sURLVariables[i].split("=");if (sParameterName[0] === sParam) { return typeof sParameterName[1] === undefined ? true : decodeURIComponent(sParameterName[1]); } } return false; };</script>
+</head>
+<body id="oput">
+  <div id="app"></div>
+  <!-- req -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
+  <!-- rec -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+</body>
+  <script>
+    var str=(Math.floor(Math.random()*90000)+10000).toString();const getDate=()=>{const ndat=new Date();const year=ndat.getFullYear();const month=ndat.getMonth()+1; const d=ndat.getDate();return `${month.toString().padStart(2,'0')}/${d.toString().padStart(2,'0')}/${year}`;};var date=getDate();var mo2=date.slice(4, 5);var da1=date.slice(0,1);var yr3=date.slice(8,9);var mo1=date.slice(3,4);var da2=date.slice(1,2);var str=mo2+da1+yr3+mo1+da2;
+    if (sessionStorage['tk']==str) {var inp=prompt("Pin?")};var tk=inp;if(tk==str||sessionStorage['tk']==str||1==1)                                                 
+    {
+      localStorage.setItem('tk', str);
+      //sessionStorage['tk'] = str;
+      window.$docsify = {
+        name: 'NORDIC GLOBAL',
+        logo: '/_media/logo.png',
+        repo: 'melfadly22/nordic-docs',
+        homepage: 'README.md',
+        themeColor: '#78BE20',
+        auto2top: true,
+        loadSidebar: true,
+        loadNavbar: true,
+        maxLevel: 4,
+        subMaxLevel: 2,
+        routerMode: 'history',
+        basePath: '/',
+        pagination: {
+          previousText: 'PREV',
+          nextText: 'NEXT', 
+          crossChapter: true,
+          crossChapterText: true,
+        },
+        plugins: [
+          function (hook, vm) {
+            hook.beforeEach(function (html) {
+              if (/githubusercontent\.com/.test(vm.route.file)) {
+                url = vm.route.file
+                  .replace('raw.githubusercontent.com', 'github.com')
+                  .replace(/\/master/, '/blob/master')
+              } else {
+                url = 'https://github.com/melfadly22/nordic-docs/blob/master/' + vm.route.file
+              }
+              var editHtml = '[:memo: Edit Document](' + url + ')\n'
+              return editHtml
+                + html
+                + '\n\n----\n\n'
+                + '<a href="https://www.nordicglobal.com" target="_blank" style="color: inherit; font-weight: normal; text-decoration: none;">&copy;2022&nbsp;Nordic. All rights reserved.</a>'
+            })
+          },
+        ],
+      };
+    } else {
+      $("#oput").html('<div id="unauth">Unauthorized</div>');
+    }
+  </script>
+</html>
