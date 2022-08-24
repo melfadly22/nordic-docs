@@ -1,4 +1,9 @@
 #### Registry Direct -> American Heart Association
+  - [Submission Processing](#submission-processing)
+  - [Providing Feedback](#providing-feedback)
+    - [Automatic Abstraction](#providing-feedback)
+  - [Data Validation](#data-validation)
+    - [New Implementations](#new-implementations)
 
 ## Submission Processing
 

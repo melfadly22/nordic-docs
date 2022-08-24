@@ -1,4 +1,9 @@
 #### Registry Direct -> Healogics
+  - [Submission Processing](#submission-processing)
+  - [Data Validation](#data-validation)
+    - [New Implementations](#new-implementations)
+    - [Initial Patient Validation](#initial-patient-validation)
+    - [Batch Patient Validation](#batch-patient-validation)
 
 ## Submission Processing
 

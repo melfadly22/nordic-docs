@@ -1,4 +1,6 @@
 #### Registry Direct -> Overview
+  - [Automation](#automation)
+  - [Fast Implementations](#fast-implementations)
 
 ## Automation
 

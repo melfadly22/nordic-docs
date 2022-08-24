@@ -12,7 +12,7 @@
   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
   <script>
-    var getUrlParameter = function getUrlParameter(sParam) {
+    var gup = function gup(sParam) {
       var sPageURL = window.location.search.substring(1),
         sURLVariables = sPageURL.split("&"),
         sParameterName,
@@ -31,24 +31,22 @@
     };
   </script>
 </head>
-<body id="theBody">
+<body id="oput">
   <div id="app"></div>
   <script>
     window.$docsify = {
     }
   </script>
-
-  <!-- Docsify v4 - Required -->
+  <!-- req -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/docsify.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/js/docsify-themeable.min.js"></script>
-
-  <!-- Recommended -->
+  <!-- rec -->
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
-
+  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 </body>
   <script>
-    var str = (Math.floor(Math.random() * 90000) + 10000).toString(); const getDate = () => { const newDate = new Date(); const year = newDate.getFullYear(); const month = newDate.getMonth() + 1; const d = newDate.getDate(); return `${month.toString().padStart(2, '0')}/${d.toString().padStart(2, '0')}/${year}`; }; var date = getDate(); var mo2 = date.slice(4, 5); var da1 = date.slice(0, 1); var yr3 = date.slice(8, 9); var mo1 = date.slice(3, 4); var da2 = date.slice(1, 2); var str = mo2 + da1 + yr3 + mo1 + da2; var input = prompt("Enter pin?"); var tk = input; if (tk == str) 
+    var str=(Math.floor(Math.random()*90000)+10000).toString();const getDate=()=>{const ndat=new Date();const year=ndat.getFullYear();const month=ndat.getMonth()+1; const d=ndat.getDate();return `${month.toString().padStart(2,'0')}/${d.toString().padStart(2,'0')}/${year}`;};var date=getDate();var mo2=date.slice(4, 5);var da1=date.slice(0,1);var yr3=date.slice(8,9);var mo1=date.slice(3,4);var da2=date.slice(1,2);var str=mo2+da1+yr3+mo1+da2;var inp=prompt("Enter pin?");var tk=inp;if(tk==str) 
     {
       window.$docsify = {
         name: 'NORDIC GLOBAL',
@@ -62,6 +60,13 @@
         maxLevel: 4,
         subMaxLevel: 2,
         routerMode: 'history',
+        basePath: '/',
+        pagination: {
+          previousText: 'PREV',
+          nextText: 'NEXT', 
+          crossChapter: true,
+          crossChapterText: true,
+        },
         plugins: [
           function (hook, vm) {
             hook.beforeEach(function (html) {
@@ -83,7 +88,7 @@
         ],
       };
     } else {
-      $("#theBody").html(`<div id="unauth">Unauthorized</div>`);
+      $("#oput").html('<div id="unauth">Unauthorized</div>');
     }
   </script>
 </html>
