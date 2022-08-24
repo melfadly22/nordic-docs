@@ -6,7 +6,7 @@ var domain = "nordic-prod-docs";
 var region = "us-east-1";
 var appClientId = "4njcde0lgccudreok82mgef6o0";
 var userPoolId = "us-east-1_rQH4zDtMl";
-var redirectURI = "https://nordic-prod-docs.auth.us-east-1.amazoncognito.com";
+var redirectURI = "https://main.d265g0svwku80s.amplifyapp.com/index.html";
 
 //var domain = "YOUR_COGNITO_DOMAIN_PREFIX";
 //var region = "YOUR_REGION";
