@@ -1,10 +1,8 @@
 #### Registry Direct -> Overview
-  - [Automation](#automation)
+  - [Auto Data Submissions](#auto-data-submissions)
   - [Fast Implementations](#fast-implementations)
 
-## Automation
-
-### Data Submissions
+## Auto Data Submissions
 
 Registry Direct is a Software-as-a-Service application that automatically gathers, transforms, validates, and sends population health metrics and quality measures to third-party registries on behalf of our partnering hospital organizations.
 
