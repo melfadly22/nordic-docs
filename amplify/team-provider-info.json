@@ -1,0 +1,15 @@
+{
+  "staging": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-vnordicdocs-staging-225742-authRole",
+      "UnauthRoleArn": "arn:aws:iam::464790266450:role/amplify-vnordicdocs-staging-225742-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::464790266450:role/amplify-vnordicdocs-staging-225742-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-vnordicdocs-staging-225742-deployment",
+      "UnauthRoleName": "amplify-vnordicdocs-staging-225742-unauthRole",
+      "StackName": "amplify-vnordicdocs-staging-225742",
+      "StackId": "arn:aws:cloudformation:us-east-1:464790266450:stack/amplify-vnordicdocs-staging-225742/feeceea0-2336-11ed-867e-0e62bae32ce5",
+      "AmplifyAppId": "d265g0svwku80s"
+    }
+  }
+}
