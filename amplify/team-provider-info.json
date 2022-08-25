@@ -10,6 +10,11 @@
       "StackName": "amplify-vnordicdocs-staging-225742",
       "StackId": "arn:aws:cloudformation:us-east-1:464790266450:stack/amplify-vnordicdocs-staging-225742/feeceea0-2336-11ed-867e-0e62bae32ce5",
       "AmplifyAppId": "d265g0svwku80s"
+    },
+    "categories": {
+      "auth": {
+        "vnordicdocs4d4ae746": {}
+      }
     }
   }
 }

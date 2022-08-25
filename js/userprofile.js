@@ -2,17 +2,11 @@ var myHeaders = new Headers();
 myHeaders.set('Cache-Control', 'no-store');
 var urlParams = new URLSearchParams(window.location.search);
 var tokens;
-var domain = "nordic-prod-docs";
-var region = "us-east-1";
-var appClientId = "4njcde0lgccudreok82mgef6o0";
-var userPoolId = "us-east-1_rQH4zDtMl";
-var redirectURI = "https://main.d265g0svwku80s.amplifyapp.com/index.html";
-
-//var domain = "YOUR_COGNITO_DOMAIN_PREFIX";
-//var region = "YOUR_REGION";
-//var appClientId = "YOUR_APPCLIENT_ID";
-//var userPoolId = "YOUR_USERPOOL_ID";
-//var redirectURI = "YOUR_REDIRECT_URI";
+//var domain = "nordic-prod-docs"; //"YOUR_COGNITO_DOMAIN_PREFIX"
+//var region = "us-east-1"; //"YOUR_REGION"
+var appClientId = "1u61vscpnp1rp9u4vn2g7ucidc"; //"YOUR_APPCLIENT_ID"
+//var userPoolId = "us-east-1_4SV0Bx5Il"; //"YOUR_USERPOOL_ID"
+//https://main.d265g0svwku80s.amplifyapp.com/index.html"; //"YOUR_REDIRECT_URI"
 
 //Convert Payload from Base64-URL to JSON
 const decodePayload = payload => {
