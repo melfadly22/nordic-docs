@@ -7,16 +7,16 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
-  <link rel="stylesheet" media="(prefers-color-scheme: dark)"  href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
-  <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
-  <link rel="stylesheet" href="css/styles.css">
-  <script src="https://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js"></script>
-  <script src="js/verifier.js"></script>
-  <script src="js/userprofile.js"></script>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/style.min.css" type="text/css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css" title="light">
+  <link rel="stylesheet alternative" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css" title="dark">
+  <!--<link rel="stylesheet" href="css/styles.css">-->
+  <!-- required for auth -->
+  <script src="js/lib.js"></script><script src="js/veri.js"></script><script src="js/up.js"></script>
   <!--
 
   -->
-
+  <!--<script src="https://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js"></script>-->
 </head>
 <body>
   <div id="app"></div>
@@ -28,7 +28,7 @@
       onlyCover: false,
       loadSidebar: true,
       loadNavbar: true,
-      mergeNavbar: false,
+      mergeNavbar: true,
       maxLevel: 4,
       subMaxLevel: 2,
       name: 'NORDIC GLOBAL',
@@ -82,5 +82,8 @@
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/search.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/docsify@4/lib/plugins/zoom-image.min.js"></script>
   <script src="https://unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+  <!-- darklight switch -->
+  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/main.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/docsify-darklight-theme@3/dist/docsify-themeable/index.min.js"></script>
   </body>
 </html>
