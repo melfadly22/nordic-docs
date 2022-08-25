@@ -1,4 +1,4 @@
-#### Registry Direct -> Healogics
+# Registry Direct -> Healogics
   - [Submission Processing](#submission-processing)
   - [Data Validation](#data-validation)
     - [New Implementations](#new-implementations)

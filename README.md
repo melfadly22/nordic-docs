@@ -1,18 +1,12 @@
-#### Product Documentation
+# Nordic Global
 
-## Nordic Global
+>Products that drive healthcare interoperability.
 
->Software that drives healthcare interoperability.
+![logo](/_media/rd-icon.png ':size=380')
+![logo](/_media/hdc-icon.png ':size=380')
 
-## Getting Started
+## Product Documentation
 
-This site provides a collection of documents that includes answers to frequently asked questions, how-to guides, and troubleshooting instructions for supporintg Nordic Global sofware products. The information is arranged and organized to help you find effective solutions quickly and efficiently. Your feedback for improvement is welcomed and encouraged.
-
-## Navigation
-
-The left sidebar divides most of the content into manageable parts, resulting in smaller and easier to handle sections of information.
-
-## Active Products
-
-- Registry Direct
-- Health Data Connector
+- [Get Started](introduction.md)
+- [Registry Direct](rd-overview.md)
+- [Health Data Connector](hdc-overview.md)

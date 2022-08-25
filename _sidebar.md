@@ -1,9 +1,10 @@
-- **Product Documentation**
+- **PRODUCT DOCUMENTATION**
+  - [Introduction](introduction.md)
 
 - **Registry Direct**
   - [Overview](rd-overview.md)
-  - [American Heart Association](american-heart-assoc.md)
-  - [Healogics](healogics.md)
+  - [American Heart Association](rd-american-heart-assoc.md)
+  - [Healogics](rd-healogics.md)
 
 - **Health Data Connector**
   - [Overview](hdc-overview.md)

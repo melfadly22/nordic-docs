@@ -1,4 +1,4 @@
-#### Health Data Connector -> Support
+# Health Data Connector -> Support
   - [Maintenance](#Maintenance)
   - [Troubleshooting](#troubleshooting)
 

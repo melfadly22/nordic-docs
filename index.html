@@ -9,28 +9,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" media="(prefers-color-scheme: dark)"  href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple-dark.css">
   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
+  <link rel="stylesheet" href="css/styles.css">
+  <!--
+  -->
   <script src="https://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js"></script>
   <script src="js/verifier.js"></script>
   <script src="js/userprofile.js"></script>
-  <!--
-
-  -->
 </head>
 <body>
   <div id="app"></div>
   <script>
     window.$docsify = {
+      auto2top: true,
+      basePath: '/',
+      coverpage: true,
+      onlyCover: false,
+      loadSidebar: true,
+      loadNavbar: true,
+      mergeNavbar: false,
+      maxLevel: 4,
+      subMaxLevel: 2,
       name: 'NORDIC GLOBAL',
       logo: '/_media/logo.png',
       repo: 'melfadly22/nordic-docs',
       homepage: 'README.md',
       themeColor: '#78BE20',
-      auto2top: true,
-      loadSidebar: true,
-      loadNavbar: true,
-      maxLevel: 4,
-      subMaxLevel: 2,
-      basePath: '/',
+      search: {
+          noData: {
+            '/': 'No results found.',
+          },
+          paths: 'auto',
+          placeholder: {
+            '/': 'Search',
+          },
+        },
       pagination: {
         previousText: 'PREV',
         nextText: 'NEXT',

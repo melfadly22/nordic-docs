@@ -1,4 +1,4 @@
-#### Health Data Connector -> Timetable
+# Health Data Connector -> Timetable
   - [Release Schedule](#release-schedule)
   - [Roadmap](#roadmap)
     - [Q1 2022](#q1-2022)

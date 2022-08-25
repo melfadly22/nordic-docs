@@ -1,4 +1,4 @@
-#### Health Data Connector -> Deployment
+# Health Data Connector -> Deployment
   - [Application Installation](#application-installation)
   - [Application Training](#application-training)
 

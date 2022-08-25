@@ -1,4 +1,4 @@
-#### Health Data Connector -> Configuration
+# Health Data Connector -> Configuration
   - [Workflows](#workflows)
   - [Connections and Auth](#connections-and-auth)
   - [Payload Processing](#payload-processing)

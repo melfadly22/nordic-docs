@@ -1,4 +1,4 @@
-#### Health Data Connector -> Features
+# Health Data Connector -> Features
   - [HL7 v2](#hl7-v2)
   - [Modular Add-ons](#modular-add-ons)
   - [HL7 v2](#hl7-v2)

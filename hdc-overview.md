@@ -1,4 +1,4 @@
-#### Health Data Connector -> Overview
+# Health Data Connector -> Overview
   - [Interoperability](#interoperability)
   - [Integration](#integration)
     - [Healthcare Systems](#healthcare-systems)

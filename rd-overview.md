@@ -1,4 +1,4 @@
-#### Registry Direct -> Overview
+# Registry Direct -> Overview
   - [Auto Data Submissions](#auto-data-submissions)
   - [Fast Implementations](#fast-implementations)
 
