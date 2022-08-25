@@ -11,7 +11,7 @@ This site provides a collection of documents that includes answers to frequently
 
 The left sidebar divides most of the content into manageable parts, resulting in smaller and easier to handle pieces of information. The top of every page has a table of cotents which links every main section in an article. Links at the bottom of every page will navigate to next or previous articles.
 
-## Active Products
+## Active Assets
 
 - Registry Direct
 - Health Data Connector
