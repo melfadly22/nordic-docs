@@ -14,3 +14,4 @@
   - [Features](hdc-features.md)
   - [Implementation](hdc-implementation.md)
   - [Timetable](hdc-timetable.md)
+  - [Advanced Configuration](hdc-advanced-config.md)

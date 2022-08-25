@@ -11,10 +11,11 @@
   <link rel="stylesheet" media="(prefers-color-scheme: light)" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css">
   <link rel="stylesheet" href="css/styles.css">
   <!--
-  -->
   <script src="https://kjur.github.io/jsrsasign/jsrsasign-latest-all-min.js"></script>
   <script src="js/verifier.js"></script>
   <script src="js/userprofile.js"></script>
+  -->
+
 </head>
 <body>
   <div id="app"></div>
@@ -34,6 +35,10 @@
       repo: 'melfadly22/nordic-docs',
       homepage: 'README.md',
       themeColor: '#78BE20',
+      themeable: {
+        responsiveTables: true, // default
+        readyTransition: true, // default
+      },
       search: {
           noData: {
             '/': 'No results found.',
