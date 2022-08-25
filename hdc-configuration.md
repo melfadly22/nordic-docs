@@ -6,7 +6,7 @@
   - [Event Driven](#event-driven)
 
 ## Workflows
-Chain processes together to generate a complete output and deliver the output to various storage and operational services. Workflows typically consist of multiple web service requests that build a custom data payload (or business object), which is then transmitted to an operational service that requires the data. Operational services are typically the existing software our clients seek to integrate healthcare data into. Workflows can also store data to a database along the way or as a final outcome
+Chain processes together in order to generate a complete output and deliver the output to various storage and operational services. Workflows typically consist of multiple web service requests that build a custom data payload (or business object), which is then transmitted to an operational service that requires the data. Operational services are typically the existing software our clients seek to integrate healthcare data into. Workflows can also store data to a database along the way or as a final outcome
 
   - A workflow is typically event-driven, meaning it is triggered via one of the following concepts
 
