@@ -10,7 +10,7 @@ This site provides a collection of documents that includes answers to frequently
 
 ## Navigation
 
-The left sidebar divides most of the content into manageable parts, resulting in smaller and easier to handle pieces of information.
+The left sidebar divides most of the content into manageable parts, resulting in smaller and easier to handle sections of information.
 
 ## Active Products
 
