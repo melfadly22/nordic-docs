@@ -2,8 +2,8 @@
 
 >Products that drive healthcare interoperability.
 
-![logo](/_media/rd-icon.png ':size=380')
-![logo](/_media/hdc-icon.png ':size=380')
+![logo](/_media/rd-icon.png ':size=300')
+![logo](/_media/hdc-icon.png ':size=300')
 
 ## Product Documentation
 
